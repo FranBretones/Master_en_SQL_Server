@@ -139,7 +139,6 @@ This database is designed to manage customer, product, purchase, and campaign da
 
 ---
 
-## 🗺️ Relationships
 
 🗺️ **Relationships**
 -----------------
