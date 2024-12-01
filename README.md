@@ -279,8 +279,10 @@ By creating these interconnections between tables, the database ensures that all
 
 ### 📈 Indexes
 
-To improve performance of searches:
-
+##### To improve performance of searches:
+On parties table:
 ```sql
 CREATE INDEX user_groups_user_id_index ON Cliente("IdCliente");
 CREATE INDEX user_groups_group_id_index ON Campania("IdCampania");
+```
+
