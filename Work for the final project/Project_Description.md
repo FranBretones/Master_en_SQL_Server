@@ -35,10 +35,10 @@ SET @idHCaptacion = SCOPE_IDENTITY();
 ```
 
 -- Inserting a new record into the HoraCapClienteCampania table, linking HoraCaptacion, Cliente, and Campania.
-
+```sql
 INSERT INTO HoraCapClienteCampania (idHCaptacion, idCliente, idCampania)
 VALUES (@idHCaptacion, 6, 1);
-
+```
 
 # 🧮 SQL Queries and Exercicies 
 
